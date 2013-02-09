@@ -57,6 +57,12 @@ Requirements
 * App: Any device with Android 4.0+ and touch screen
 * Driver: Linux with uinput kernel module (included in modern versions of Fedora, Ubuntu etc.)
 
+If you use Xorg (you probably do):
+
+* Xorg-evdev module loaded and configured
+  Probably on by default, but if it doesn't work, you may need to activate the
+  module: see https://github.com/rfc2822/GfxTablet/issues/7#issuecomment-13338216
+
 
 Installation
 ============
